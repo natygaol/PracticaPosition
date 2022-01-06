@@ -1,0 +1,36 @@
+h1, .contenedor, .informacion {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.header {
+  position: relative;
+  /* top mueve de arriba hacia abajo y mueve el elemento dentro de su contenedor*/
+  top: 20px;
+}
+
+h1 {
+  position: fixed;
+  height: 40px;
+  top: 0px;
+  width: 100%;
+  background-color: burlywood;
+  color: azure;
+  margin-top: 0px;
+  z-index: 10;
+}
+
+.contenedor {
+  margin-top: 90px;
+  position: relative;
+}
+
+.textoArbitrario {
+  position: relative;
+}
+
+.ok {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
